@@ -13,4 +13,5 @@ If they are an admin and have an active session in their browser, the exploit wi
 
 # History of Disclosure
 Reported on: 04/04/2022
+
 Disclosure on: 08/11/2023
