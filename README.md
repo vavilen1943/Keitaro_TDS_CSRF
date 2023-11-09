@@ -9,7 +9,7 @@ vavilen1943
 2) Create a fake site with a CSRF exploit.
 3) Send the link to the victim.
 
-If they are an admin and have an active session in their browser, the exploit will create a new account with admin privileges.
+If victim is an admin and have an active session in their browser, the exploit will create a new account with admin privileges.
 
 # History of Disclosure
 Reported on: 04/04/2022
